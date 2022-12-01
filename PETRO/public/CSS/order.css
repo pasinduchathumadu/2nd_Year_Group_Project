@@ -1,0 +1,127 @@
+*{
+    margin:0;
+}
+
+.header1{
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 18px;
+}
+.header{
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-bottom: 30px;
+    border-width: 300px;
+    background:#27C382;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table#display{
+    float:left;
+    border: 5px solid black;
+    margin-left:10px;
+    width: 35vw;
+    background-color: blanchedalmond;
+    font-size: 24px;
+
+}
+table#display td{
+    border: 1px solid black;
+    padding:0px 8px;
+    margin-left: 10px;
+    padding-left:40px;
+    text-align: left;
+}
+table#display tr{
+    border: 1px solid black;
+    padding:0 8px;
+
+}
+.space{
+    padding-left: 10%;
+}
+.tab{
+    padding-left: 10px;
+}
+.textarea {
+    text-align: center;
+    width: 30%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+.table1{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    text-align: center;
+    margin-top: 2%;
+    color: crimson;
+    font-weight: 800;
+    font-size: 24px;
+}
+.main2{
+    border:30px;
+    outline-style: double;
+    background-color:#27C382;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+}
+.main1{
+    border:30px;
+    outline-style: double;
+    background-color:#27C382;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+}
+.but-2{
+   float: right;
+}
+button{
+    border: 10px;
+    text-align: center;
+    width: 150px;
+    font-weight: 600;
+    background-color:#AEC327;
+    height:30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:coral;
+    color:black;
+}
+body{
+    font-size: 20px;
+    height: 95vh;
+}
+.inline{
+    display: flex;
+    margin: 1%;
+}
+.same{
+    text-decoration: none;
+    color: black;
+}

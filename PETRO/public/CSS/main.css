@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+.header{
+    height: 80px;
+    border-radius: 10px;
+    border-bottom: 30px;
+    border-width: 300px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login{
+    font-size: 20px;
+}
+.column{
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+
+    margin: 5px;
+    border: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+.col2{
+    margin: 5px;
+    border: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+.main1{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 20px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    background-color:#27C382;
+    outline-style: double;
+    text-align: center;
+    width: 50vw;
+    height: 450px;
+}
+.textarea1{
+    display: inline;
+    width: 22%;
+    padding: 10px;
+    border: solid thin #aaa;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+    text-align: center;
+}
+.textarea{
+    width: 48%;
+    padding: 10px;
+    border: solid thin #aaa;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+    text-align: center;
+}
+.header1{
+    padding-top: 10px;
+    font-size: 26px;
+    font-style: italic;
+    font-weight:bold;
+}
+.tab1{
+    padding-right: 160px;
+}
+button{
+    width: 45%;
+    padding: 10px;
+    border: solid thin #aaa;
+    border-radius: 15px;
+    margin: 5px;
+    outline: none;
+    text-align: center;
+    background-color:#AEC327;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color:coral;
+    color:black;
+}
+.same{
+    text-decoration: none;
+}
+.main3{
+    height: 100px;
+    border-radius: 10px;
+    border: 30px;
+    border-width: 300px;
+    padding-top: 10px;
+    text-align: center;
+}
+.tab{
+    padding-right:30px;
+}
+.error{
+    color: crimson;
+    font-weight: 900;
+    font-size: 24px;
+}
+.head_2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.sub_a{
+    text-align: center;
+}
+body{
+    background: white;
+    height: 95vh;
+}
